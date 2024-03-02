@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Cardo&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url('images/img.jpg');
+}
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Playfair Display', sans-serif;
+    color: #031aae;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item a{
+    font-size: 1.1rem;
+}
+
+.nav-link {
+    color: #031aae;
+    position: relative;
+    transition: all 0.4s;
+}
+
+.nav-link::after{
+    content: '';
+    height: 3px;
+    width: 80%;
+    background: rgb(4, 84, 243);
+    position: absolute;
+    left: 9px;
+    bottom: 5px;
+    opacity: 0;
+    transition: all 0.5s;
+    pointer-events: none;
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+}
+
+.bg-img-0 {
+    background-image: url('images/img13.jpg');
+ }
+
+.bg-img-1 {
+   background-image: url('images/img12.jpg');
+}
+
+.bg-img-2 {
+    background-image: url('images/img5.jpg');
+}
+
+.bg-img-3 {
+    background-image: url('images/img11.jpg');
+}
+
+.caption1 p{
+   letter-spacing: 0.7rem;
+}
+
+.carousel-image {
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption h1{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 5rem;
+}
+
+
+
+.hr-droid {
+    display: flex;
+  }
+  .hr-line{
+    width: 100%;
+    position: relative;
+    margin: 15px;
+    border-bottom: 1.5px solid #9f9f9f;
+  }
+  .green{
+     border-color: #b6b6b6;
+  }
+  .purple {
+    border-color: #b6b6b6;
+  }
+  .fas {
+    position: relative;
+    top: 9px;
+    color: #04099a;
+    font-size: 3rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .brand-2 {
+    font-weight: 700;
+    color: #031aae;
+    font-family: 'Playfair Display', sans-serif;
+  }
+
+  .btn {
+    border-radius: 25px;
+    font-size: 0.8rem;
+  }
+
+  .para {
+    font-size: 0.8rem;
+  }
+
+  .cover1 h1{
+    font-family: 'Antonio', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+  }
+
+  .cover1 h1 span{
+    margin-top: 0;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #34498f;
+  } 
+
+  .cover2 h1{
+    font-family: 'Antonio', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+  }
+
+  .cover2 h1 span{
+    margin-top: 0;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #4b66be;
+  } 
+
+  
+  .cover3 h1{
+    font-family: 'Antonio', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+  }
+
+  .cover3 h1 span{
+    margin-top: 0;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #a04a10;
+  }
+
+  .clip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+    text-align: center;
+    font-size: 8rem;
+    background-image: url(images/img8.jpg);
+    background-size: contain;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  .boxes-1 {
+    width: 80%;
+  }
+
+  .fa-facebook {
+    font-size: 40px;
+  }
+
+  .fa-whatsapp {
+    font-size: 40px;
+  }
+
+  .fa-instagram {
+    font-size: 40px;
+  }
+
+  .hr-tag {
+    border-top: 1px solid white;
+  }
+
